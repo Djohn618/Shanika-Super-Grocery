@@ -106,3 +106,30 @@ footer a i {
     margin: 20px;
 }
 
+@media screen and (max-width: 800px) {
+    .navbar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        text-align: center;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar li {
+        float: none;
+        display: inline-block;
+    }
+
+    main {
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    aside, section, article {
+        width: 100%;
+    }
+}
