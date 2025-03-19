@@ -1,0 +1,128 @@
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    position: sticky;
+    background-color: hsl(201, 91%, 38%);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.letter {
+    font-family: sans-serif;
+    background-color: hsl(201, 91%, 38%) ;
+}
+
+
+
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 0%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;             
+    justify-content: center;   
+    align-items: center; 
+    position: sticky;
+    width: 100%;
+}
+
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+
+.navbar li{
+    float: none; /* Float entfernen  */
+    display: inline-block; /* alle items wird in der mitter dargestellt*/
+}
+
+
+
+
+
+
+
+
+
+ /* ab hier fängt footer an */
+ footer {
+    position: fixed;
+    margin-top: 20px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    background-color: rgb(0, 0, 0); /* Fixed the background color */
+    padding: 25px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    gap: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+footer a i {
+    transition: color 0.3s;
+    font-size: 35px; 
+}
+
+footer a i {
+    margin: 20px;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    .navbar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        text-align: center;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar li {
+        float: none;
+        display: inline-block;
+    }
+
+    main {
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    aside, section, article {
+        width: 100%;
+    }
+}

@@ -1,0 +1,108 @@
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    position: sticky;
+    background-color: hsl(201, 91%, 38%);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.letter {
+    font-family: sans-serif;
+}
+
+
+
+
+
+section{
+    text-align: center;
+    position: center;
+    margin-left: 650px;
+}
+
+
+.map-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center; 
+    text-align: center;     
+    max-width: 800px;       
+    margin:auto;    
+       
+}
+
+
+
+h2{
+    margin-top: 60px;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+    
+}
+
+
+iframe{
+    border-radius: 2em;
+    display: block;
+    justify-content: center;
+   
+}
+
+
+
+
+
+ /* ab hier fängt footer an  */
+ footer {
+    position: fixed;
+    margin-top: 20px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    background-color: rgb(0, 0, 0);  /*Fixed the background color */
+    padding: 25px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    gap: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+footer a i {
+    transition: color 0.3s;
+    font-size: 35px; 
+}
+
+footer a i {
+    margin: 20px;
+}
+
